@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon">
+        <title>Чайхана Самарканд</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="index.html">
+                    <img src="image/logo.jpg" alt="logo" class="logo">
+                </a>
+            </div>
+            <ul id="menu">
+                <a href="index.html">ГОЛОВНА</a>
+                <a href="menu.html">МЕНЮ</a>
+                <a href="#service">СЕРВІСИ</a>
+                <a href="#reserve_people">РЕЗЕРВАЦІЯ</a>
+                <a href="#delivery">ЗАМОВЛЕННЯ ДОСТАВКИ</a>
+                <a href="#events">ПОДІЇ</a>
+                <a href="#contact">КОНТАКТИ</a>
+            </ul>
+            <div>
+                <a href="https://www.facebook.com/lvivsamarkand/">
+                    <img src="image/fblogo.png" alt="facebook" class="fb">
+                </a>
+                <a href="https://formspree.io/nazar.himin@gmail.com">
+                    <img src="image/maillogo.png" alt="mail" class="mail">
+                </a>
+                <a href="https://www.tripadvisor.ru/Restaurant_Review-g295377-d8566828-Reviews-Chaykhana_Samarkand-Lviv_Lviv_Oblast.html">
+                    <img src="image/talogo.png" alt="tripadvisor" class="ta">
+                </a>
+            </div>
+            <div id="first_level">
+                <form>
+                    <img src="image/search.png" alt="пошук">
+                    <input type="search">
+                </form>
+            </div>
+        </header>
+        <div>
+            <h4 class="h4">ЗАПРОШУЄМО</h4>
+            <h1>СУЧАСНА КУХНЯ ТА СТАРОДАВНІ ТРАДИЦІЇ
+        </h1>
+            <p class="p">СМАК СХОДУ ЗОВСІМ ПОРУЧ</p>
+            <img src="image/mainimage.jpg" alt="image" class="mainimage" width="100%">
+        </div>
+        <div>
+            <h1 id="service">НАШІ СЕРВІСИ</h1>
+            <div>
+                <a href="index.html">
+                    <img src="image/service1.png" alt="Online Menu" class="service-img">
+                </a>
+            </div>
+            <div>
+                <a href="#delivery">
+                    <img src="image/service2.png" alt="Доставка" class="service-img">
+                </a>
+            </div>
+            <div>
+                <a href="#reserve_people">
+                    <img src="image/service3.png" alt="РЕЗЕРВУВАННЯ ОНЛАЙН" class="service-img">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="image/service4.png" alt="САМОВИНІС" class="service-img">
+                </a>
+            </div>
+        </div>
+        <h1 id="reserve_people">РЕЗЕРВУВАННЯ СТОЛИКУ</h1>
+        <form action="https://formspree.io/nazar.himin@gmail.com/" method="POST">
+            <div class="row">
+                <div class="makereservpad col-md-3">
+                    <select name="reserve_people">
+                        <option value="2 особи">2 особи</option>
+                        <option value="3 особи">3 особи</option>
+                        <option value="4 особи">4 особи</option>
+                        <option value="5 особи">5 особи</option>
+                        <option value="6 особи">6 особи</option>
+                        <option value="7 особи">7 особи</option>
+                        <option value="8 особи">8 особи</option>
+                        <option value="9 особи">9 особи</option>
+                        <option value="10 особи">10 особи</option>
+                        <option value="11 особи">11 особи</option>
+                        <option value="12 особи">12 особи</option>
+                        <option value="13 особи">13 особи</option>
+                    </select>
+                </div>
+                <div class="makereservpad col-md-3">
+                    <input type="text" id="datepicker" placeholder="01/07/2018" name="date" class="hasDatepicker">
+                </div>
+                <div class="makereservpad col-md-3">
+                    <select id="reserve_time" name="reserve_time">
+                        <option value="00:00 pm">00:00 pm</option>
+                        <option value="1:00 pm">1:00 pm</option>
+                        <option value="1:30 pm">1:30 pm</option>
+                        <option value="2:00 pm">2:00 pm</option>
+                        <option value="2:30 pm">2:30 pm</option>
+                        <option value="3:00 pm">3:00 pm</option>
+                        <option value="3:30 pm">3:30 pm</option>
+                        <option value="4:00 pm">4:00 pm</option>
+                        <option value="4:30 pm">4:30 pm</option>
+                        <option value="5:00 pm">5:00 pm</option>
+                        <option value="5:30 pm">5:30 pm</option>
+                        <option value="6:00 pm">6:00 pm</option>
+                        <option value="6:30 pm">6:30 pm</option>
+                        <option value="7:00 pm">7:00 pm</option>
+                        <option value="7:30 pm">7:30 pm</option>
+                        <option value="8:00 pm">8:00 pm</option>
+                        <option value="8:30 pm">8:30 pm</option>
+                        <option value="9:00 pm">9:00 pm</option>
+                        <option value="9:30 pm">9:30 pm</option>
+                    </select>
+                </div>
+                <div class="col-md-3 findbtn">
+                    <input type="submit" value="Зарезервувати">
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </form>
+        <div>
+            <h1 id="delivery">ЗАМОВЛЕННЯ ДОСТАВКИ</h1>
+            <p>ТУТ БУДЕ ФОРМОЧКА ДОСТАВКИ</p>
+            <h1 id="events">МАЙБУТНІ ПОДІЇ</h1>
+            <p>ТУТ БУДУТЬ ПОДІЇ</p>
+        </div>
+        <footer id="footer">
+            <h1 id="contact">НАШІ КОНТАКТИ</h1>
+            <div>
+                <a href="https://www.facebook.com/lvivsamarkand/">
+                    <img src="image/fblogo.png" alt="facebook" class="fb">
+                </a>
+                <a href="https://formspree.io/nazar.himin@gmail.com">
+                    <img src="image/maillogo.png" alt="mail" class="mail">
+                </a>
+                <a href="https://www.tripadvisor.ru/Restaurant_Review-g295377-d8566828-Reviews-Chaykhana_Samarkand-Lviv_Lviv_Oblast.html">
+                    <img src="image/talogo.png" alt="tripadvisor" class="ta">
+                </a>
+            </div>
+            <p>+380974515662</p>
+            <p>nazar.himin@gmail.com</p>
+            <p>Перехрестя Пекарської та Терщаківців, Вхід зі сторони вул. Терщаківців, Львів, UA 79008</p>
+            <p align="center">
+                <i>2018 - Chaykhana Samarkand Design &Developed by Starwanderer</i>
+            </p>
+        </footer>
+    </body>
+</html>

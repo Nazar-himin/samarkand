@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Stalinist+One'); :root {
+    font-family: 'Stalinist One', cursive;
+    color: #ff1f1c;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+}
+
+body {
+    background-image: url(cssimage/fon1.jpg);
+    background-color: #1c91ff;
+}
+
+header {
+    background-color: #ff671c;
+}
+
+p {
+    color: red;
+}
+
+.fb {
+    height: 50px;
+    width: 50px;
+}
+
+.mail {
+    height: 50px;
+    width: 50px;
+}
+
+.ta {
+    height: 50px;
+    width: 50px;
+}
+
+h1 {
+    color: #ff1f1c;
+    text-align: center;
+}
+
+.h4 {
+    text-align: center;
+}
+
+.p {
+    text-align: center;
+}
+
+footer {
+    background-image: url(cssimage/sity.jpg);
+}
