@@ -1,2 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Pangolin');
-font-family: 'Pangolin', cursive;
+:root {
+    font-family: 'Pangolin', cursive;
+}
+
+body {
+    background-image: url(../img/backgroundfon.png);
+    background-color: black;
+}
+
+.icon {
+    width: 300px;
+    height: auto;
+}
+
