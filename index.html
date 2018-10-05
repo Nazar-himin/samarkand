@@ -1,160 +1,204 @@
 <!DOCTYPE html>
 <html lang="uk">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
-    <title>Чайхана Самарканд</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
-
-<body>
-    <header>
-        <section>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+        <title>Чайхана Самарканд</title>
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <header>
             <nav>
-                <nav>
+                <nav class="header-logo">
                     <a href="index.html">
-                <img class="icon" src="img/icon.jpg" alt="main-icon">
-            </a>
+                        <img class="logo" src="img/logo.png" alt="main-logo">
+                    </a>
                 </nav>
-                <nav>
+                <nav class="header-nav">
                     <a href="index.html">ГОЛОВНА</a>
                     <a href="menu.html">МЕНЮ</a>
                     <a href="about.html">ПРО НАС</a>
                     <a href="#events">ПОДІЇ</a>
-                    <a href="#services">НАШІ СЕРВІСИ</a>
-                    <a href="#reservation">РЕ
-                    ЗЕРВАЦІЯ</a>
-                    <a href="menu.html">ДОСТАВКА</a>
+                    <a href="#services">СЕРВІСИ</a>
+                    <a href="#reservation">РЕЗЕРВАЦІЯ</a>
                     <a href="#contacts">КОНТАКТИ</a>
                     <a href="menu.html">КОШИК</a>
                 </nav>
             </nav>
-        </section>
-        <div>
-            <div>
-                <h1>СУЧАСНА КУХНЯ ТА СТАРОДАВНІ ТРАДИЦІЇ</h1>
-                <a href="about.html"><button>ДІЗНАТИСЯ БІЛЬШЕ</button></a>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section>
-            <div class="title">
-                <h2 id="events">Події</h2>
-            </div>
-            <div class="events">
-                <div class="select-event">
-                    <a href="http://www.kultura.uz/view_6_r_9095.html"><img src="img/djaz.jpg" alt="djaz"></a>
-                    <h3>Джаз в Самарканді</h3>
-                    <p>що четверга в Самарканді джаз</p>
-                    <a href="http://www.kultura.uz/view_6_r_9095.html"><button>ДІЗНАТИСЯ БІЛЬШЕ</button></a>
-                </div>
-                <div class="select-event">
-                    <a href="http://www.kultura.uz/view_6_r_9095.html"><img src="img/djaz.jpg" alt="djaz"></a>
-                    <h3>Джаз в Самарканді</h3>
-                    <p>що четверга в Самарканді джаз</p>
-                    <a href="http://www.kultura.uz/view_6_r_9095.html"><button>ДІЗНАТИСЯ БІЛЬШЕ</button></a>
-                </div>
-                <div class="select-event">
-                    <a href="http://www.kultura.uz/view_6_r_9095.html"><img src="img/djaz.jpg" alt="djaz"></a>
-                    <h3>Джаз в Самарканді</h3>
-                    <p>що четверга в Самарканді джаз</p>
-                    <a href="http://www.kultura.uz/view_6_r_9095.html"><button>ДІЗНАТИСЯ БІЛЬШЕ</button></a>
-                </div>
-                <div class="select-event">
-                    <a href="http://www.kultura.uz/view_6_r_9095.html"><img src="img/djaz.jpg" alt="djaz"></a>
-                    <h3>Джаз в Самарканді</h3>
-                    <p>що четверга в Самарканді джаз</p>
-                    <a href="http://www.kultura.uz/view_6_r_9095.html"><button>ДІЗНАТИСЯ БІЛЬШЕ</button></a>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="title">
-                <h2 id="services">Наші сервіси</h2>
-            </div>
-            <div class="services">
-                <div class="select-cervice">
-                    <a href="about.html"><img src="img/icon-loyalty.png" alt="loyalty">
-                    <h3>Система лояльності</h3></a>
-                </div>
-                <div class="select-cervice">
-                    <a href="menu.html"><img src="img/icon-delivery.png" alt="cervice">
-                    <h3>Доставка та самовиніс</h3></a>
-                </div>
-                <div class="select-cervice">
-                    <a href="about.html"><img src="img/icon-banket.png" alt="cervice">
-                    <h3>Банкети</h3></a>
-                </div>
-                <div class="select-cervice">
-                    <a href="#reservation"><img src="img/icon-reservation.png" alt="cervice">
-                    <h3>Резервування столику</h3></a>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div>
-                <h2 id="reservation">РЕЗЕРВАЦІЯ СТОЛИКУ</h2>
-            </div>
-            <div>
-                <p>Кількість осіб</p>
-                <p>Дата резервації</p>
-                <p>Час резервації</p>
-                <p>Ваше ім'я</p>
-                <p>Контактний номер телефону</p>
-                <p>Ваша ел.пошта</p>
-                <p>Ваші побажання</p>
-            </div>
-            <form>
-                <input list="persons">
-                <datalist id="persons">
-                        <option>2 людини</option>
-                        <option>3 людини</option>
-                        <option>4 людини</option>
-                        <option>5 людей</option>
-                        <option>6 людей</option>
-                        <option>7 і більше людей</option>
-                   </datalist><br>
-                <input type="date" name="date" value="2018-01-01" /><br>
-                <input type="time" name="time" min="12:00" max="22:00" value="12:00" /><br>
-                <input type="text" name="name" placeholder="Напишіть ваше ім'я" /><br>
-                <input type="tel" name="phone" placeholder="Введіть ваш номер" /><br>
-                <input type="email" name="mail" placeholder="Впишіть вашу ел.пошту" /><br>
-                <textarea class="contact_massage" name="comment" placeholder="Напишіть ваші побажання"></textarea><br>
-                <input class="reservation_submit" type="submit" value="Зарезервувати">
-            </form>
-        </section>
-        <section>
-            <div class="title">
-                <h2 id="contacts">Наші контакти</h2>
-            </div>
-            <div class="contacts">
+            <div class="baner">
                 <div>
-                    <p>вул.Пекарська 48, Львів, Україна 79008</p><br>
-                    <p>+380974515662</p><br>
-                    <p>nazar.himin@gmail.com</p><br>
-                    <p>12:00-23:00 без вихідних</p>
-                </div>
-                <div>
-                    <a href="https://www.facebook.com/lvivsamarkand/">
-                        <img src="img/icon-facebook.png" alt="fb-icon"> 
-                    </a>
-                    <a href="goo.gl/tvRx6e">
-                        <img src="img/icon-tripadvisor.png" alt="ta-icon"> 
-                    </a>
-                    <a href="goo.gl/nGiYV8">
-                        <img src="img/icon-google-plus.png" alt="google+icon"> 
-                    </a>
+                    <h1>СУЧАСНА КУХНЯ ТА СТАРОДАВНІ ТРАДИЦІЇ</h1>
+                    <div class="button-container">
+                        <button class="button" href="index.html">ДІЗНАТИСЯ БІЛЬШЕ</button>
+                    </div>
                 </div>
             </div>
-        </section>
-    </main>
-    <footer>
-        <h4 class="footer"><i>2018  |  StarWanderer  |  All rights reserved</i></h4>
-    </footer>
-</body>
-
+        </header>
+        <main>
+            <section>
+                <div class="title">
+                    <h2 id="events">Події</h2>
+                </div>
+                <div class="events-list">
+                    <div class="select-event">
+                        <a href="http://www.kultura.uz/view_6_r_9095.html">
+                            <img src="img/djaz.jpg" alt="djaz">
+                        </a>
+                        <h3>Джаз в Самарканді</h3>
+                        <p>що четверга в Самарканді джаз</p>
+                        <div class="button-container">
+                            <a href="http://www.kultura.uz/view_6_r_9095.html">
+                                <button class="button">ДІЗНАТИСЯ БІЛЬШЕ</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="select-event">
+                        <a href="http://www.kultura.uz/view_6_r_9095.html">
+                            <img src="img/djaz.jpg" alt="djaz">
+                        </a>
+                        <h3>Джаз в Самарканді</h3>
+                        <p>що четверга в Самарканді джаз</p>
+                        <div class="button-container">
+                            <a href="http://www.kultura.uz/view_6_r_9095.html">
+                                <button class="button">ДІЗНАТИСЯ БІЛЬШЕ</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="select-event">
+                        <a href="http://www.kultura.uz/view_6_r_9095.html">
+                            <img src="img/djaz.jpg" alt="djaz">
+                        </a>
+                        <h3>Джаз в Самарканді</h3>
+                        <p>що четверга в Самарканді джаз</p>
+                        <div class="button-container">
+                            <a href="http://www.kultura.uz/view_6_r_9095.html">
+                                <button class="button">ДІЗНАТИСЯ БІЛЬШЕ</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="select-event">
+                        <a href="http://www.kultura.uz/view_6_r_9095.html">
+                            <img src="img/djaz.jpg" alt="djaz">
+                        </a>
+                        <h3>Джаз в Самарканді</h3>
+                        <p>що четверга в Самарканді джаз</p>
+                        <div class="button-container">
+                            <a href="http://www.kultura.uz/view_6_r_9095.html">
+                                <button class="button">ДІЗНАТИСЯ БІЛЬШЕ</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="title">
+                    <h2 id="services">Наші сервіси</h2>
+                </div>
+                <div class="services-list">
+                    <div class="select-service">
+                        <a href="about.html">
+                            <img src="img/icon-loyalty.png" alt="loyalty">
+                            <h3>Система лояльності</h3>
+                        </a>
+                    </div>
+                    <div class="select-service">
+                        <a href="menu.html">
+                            <img src="img/icon-delivery.png" alt="delivery">
+                            <h3>Доставка та самовиніс</h3>
+                        </a>
+                    </div>
+                    <div class="select-service">
+                        <a href="about.html">
+                            <img src="img/icon-banket.png" alt="banket">
+                            <h3>Банкети</h3>
+                        </a>
+                    </div>
+                    <div class="select-service">
+                        <a href="#reservation">
+                            <img src="img/icon-reservation.png" alt="reservation">
+                            <h3>Резервування столику</h3>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="form-container">
+                    <div class="title">
+                        <h2 id="reservation">РЕЗЕРВАЦІЯ СТОЛИКУ</h2>
+                    </div>
+                    <form class="form-border">
+                        <input list="persons" placeholder="Кількість людей">
+                        <datalist id="persons">
+                            <option>2 людини</option>
+                            <option>3 людини</option>
+                            <option>4 людини</option>
+                            <option>5 людей</option>
+                            <option>6 людей</option>
+                            <option>7 і більше людей</option>
+                        </datalist>
+                        <br>
+                        <input type="date" name="date" value="2018-01-01"/>
+                        <br>
+                        <input type="time" name="time" min="12:00" max="22:00" value="12:00"/>
+                        <br>
+                        <input type="text" name="name" placeholder="Напишіть ваше ім'я"/>
+                        <br>
+                        <input type="tel" name="phone" placeholder="Введіть ваш номер"/>
+                        <br>
+                        <input type="email" name="mail" placeholder="Впишіть вашу ел.пошту"/>
+                        <br>
+                        <textarea class="contact_massage" name="comment" placeholder="Напишіть ваші побажання"></textarea>
+                        <br>
+                        <input class="button" type="submit" value="Зарезервувати">
+                    </form>
+                </div>
+            </section>
+            <section>
+                <div class="title">
+                    <h2 id="contacts">Наші контакти</h2>
+                </div>
+                <div class="contacts">
+                    <div class="contacts-columns">
+                        <div class="contacts-container">
+                            <p>
+                                <img src="img/loco.png" alt="loco">вул.Морська 138, Львів, Україна, 79008
+                            </p>
+                            <p>
+                                <img src="img/phone.png" alt="phone">+380974515662
+                            </p>
+                            <p>
+                                <img src="img/mail.png" alt="mail">nazar.himin@gmail.com
+                            </p>
+                            <p>
+                                <img src="img/schedule.png" alt="schedule">12:00-23:00 (без вихідних)
+                            </p>
+                        </div>
+                        <div class="location">
+                            <img src="img/location.jpg" alt="location">
+                        </div>
+                    </div>
+                    <div class="icon-link">
+                        <a href="https://www.facebook.com/lvivsamarkand/">
+                            <img src="img/icon-facebook.png" alt="fb-icon">
+                        </a>
+                        <a href="goo.gl/tvRx6e">
+                            <img src="img/icon-tripadvisor.png" alt="ta-icon">
+                        </a>
+                        <a href="goo.gl/nGiYV8">
+                            <img src="img/icon-google-plus.png" alt="google+icon">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>
+                <i>
+                    <b>2018  |  StarWanderer  |  All rights reserved</b>
+                </i>
+            </p>
+        </footer>
+    </body>
 </html>
