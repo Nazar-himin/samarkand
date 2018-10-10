@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin'); @import url('https://fonts.googleapis.com/css?family=Russo+One'); @import url('https://fonts.googleapis.com/css?family=Alegreya'); :root {
+    font-family: 'Pangolin', cursive;
+}
+
+body {
+    background-image: url(../img/backgroundfon.png);
+    background-color: #1c91ff;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.logo {
+    width: 100%;
+}
+
+@media (min-width: 687px) {
+    header > nav {
+        display: flex;
+    }
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav {
+    display: inline-block;
+}
+
+@media (min-width: 789px) {
+    .header-nav {
+        flex: 1;
+    }
+}
+
+.header-nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0 3%;
+    text-align: center;
+}
+
+.header-nav a:hover {
+    color: orange;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.main-section {
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu-nav {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.menu-nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0 3%;
+    text-align: center;
+}
+
+.menu-nav a:hover {
+    color: orange;
+}
+
+.menu-position {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.menu-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.menu-img img {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    background-image: url(../img/backgroundfooter.jpeg);
+    min-height: 10vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+footer p:hover {
+    color: orange;
+}
