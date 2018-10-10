@@ -35,6 +35,12 @@ body {
     }
 }
 
+@media (max-width: 686px) {
+    nav > .header-nav {
+        display: none;
+    }
+}
+
 .header-nav a {
     color: black;
     text-decoration: none;
@@ -72,6 +78,7 @@ body {
 
 .baner h1 {
     color: white;
+    background: rgba(0, 0, 0, 0.5);
     text-align: center;
     font-size: 2rem;
     justify-content: center;
@@ -159,11 +166,74 @@ body {
 }
 
 .form-border {
+    display: flex;
     text-align: center;
     border-radius: 12px;
     border: 1px solid gray;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 500px) {
+    .form-border {
+    margin: 50px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 600px) {
+    .form-border {
+    margin: 10px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 750px) {
+    .form-border {
+    margin: 10px;
+    padding: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 900px) {
+    .form-border {
+    margin: 10px;
+    padding: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .form-border {
+    margin: 10px;
+    padding: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+}
+
+.form-colums-name {
+    width: 100%;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .form-colums-name{
+        display: none;
+    }
+}
+
+.reservation-form {
+    width: 100%;
 }
 
 form input, textarea {
